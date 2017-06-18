@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Prototype </title> 	
+    <link rel="stylesheet" type="text/css" href="mystyle.css">	
+
+	<script type="text/javascript"> 
+		var enter = confirm("If you want to visit my prototype site, select 'Ok'. Otherwise, select 'Cancel' and you will be redirected to Google.");
+		if(enter !== true){
+			window.location = "https://www.google.com";
+		}
+	</script>
+</head>
+
+<body>
+
+	<h3><center> This is a test website filled with random nonsense that I find enjoyable, inspirational, or interesting. </center></h3>
+
+	<div id = "Aleksandr" class = "secondary">
+		
+		<h4> For example, here is a quote from Aleksandr Solzhenitsyn: </h4>
+		 
+		<center><img src= http://www.nobelprize.org/nobel_prizes/literature/laureates/1970/solzhenitsyn.jpg width=162 height=242></center>
+
+		<li>"The battleline between good and evil runs through the heart of every man." 
+		Also a link to his most famous work - <a href = "https://www.amazon.com/Gulag-Archipelago-Abridged-Experiment-Investigation/dp/0061253804/ref=pd_cp_14_1?_encoding=UTF8&pd_rd_i=0061253804&pd_rd_r=PNFJKEBATAWBQNREBE2V&pd_rd_w=Plnza&pd_rd_wg=ciCJ7&psc=1&refRID=PNFJKEBATAWBQNREBE2V">The Gulag Archipelago.</a> 
+		</li>
+	</div>
+	<br></br>
+	<div id = "Jung" class = "secondary">
+		<h4> Here is another by Carl Jung: </h4>
+			<center><img src="https://literariness.files.wordpress.com/2016/04/mte5ntu2mze2mjy4njkzmdaz.jpg" width=162 height=242></center>
+
+			<li> "Everything that irritates us about others can lead us to an understanding of ourselves." </li>
+			<li> "There is no coming to consciousness without pain." </li>
+			<li> "The shoe that fits one person pinches another; there is no recipe for living that suits all cases." </li>
+			<p> Here is a table filled with a few of Jung's greatest works: </p>
+			<div>
+				<table id = "t2">
+	  			<tr>
+				    <th>Book Name</th>
+				    <th>Publication Date</th> 
+				    <th>Link</th>
+				  </tr>
+				  <tr>
+				    <td>The Archetypes and The Collective Unconscious</td>
+				    <td>1969</td> 
+				    <td><a href="https://www.amazon.com/Archetypes-Collective-Unconscious-Collected-Works/dp/0691018332/ref=asap_bc?ie=UTF8">Archetypes</a> </td>
+				  </tr>
+				  <tr>
+				    <td>Psychological Types</td>
+				    <td>1921</td> 
+				    <td><a href="https://www.amazon.com/Psychological-Types-Collected-Works-Bollingen/dp/0691018138"> Psych. Types</a> </td>
+				  </tr>
+				  <tr>
+				  	<td> Aion </td>
+				  	<td> 1951 </td>
+				  	<td> <a href="https://www.amazon.com/Aion-Researches-Phenomenology-Collected-Works/dp/069101826X/ref=pd_bxgy_14_img_3?_encoding=UTF8&pd_rd_i=069101826X&pd_rd_r=8C8ES4A4V9VZPVGJRPWA&pd_rd_w=R5cTQ&pd_rd_wg=lWn3R&psc=1&refRID=8C8ES4A4V9VZPVGJRPWA"> Aion </a> </td>
+				  </tr>
+				</table>
+			</div>
+	</div>
+</body>
+</html>
