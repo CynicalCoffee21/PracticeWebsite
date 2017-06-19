@@ -1,0 +1,35 @@
+body {
+	background-color: #696969;
+	font-family: "Arial";
+	font-color" White; 
+}
+a {
+	color:	#0000CD;
+}
+h3 {
+	color: White;
+}
+.secondary {
+	color: #87CEFA;
+	background-color: #2F4F4F;
+	padding-left: 10px;	
+	padding-bottom: 10px;
+	padding-top: .01%;
+	margin-right: 20px; 
+	margin-left: 20px;
+}
+
+li {
+	font-size: 85%;
+}
+.t1, .tr1, .td1 {
+	border-collapse: collapse; 
+	padding: 10px;
+	color: 	#FFFFF0;
+}
+#t2, th, td {
+	width: 98%;
+	color: 	#FFFFF0;
+	border-collapse: collapse;
+    border: 3px solid black;
+}
