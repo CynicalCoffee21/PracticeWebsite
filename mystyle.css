@@ -18,18 +18,55 @@ h3 {
 	margin-right: 20px; 
 	margin-left: 20px;
 }
-
+section {
+    color: white;
+    padding-left: 10px;	
+	padding-bottom: 5px;
+	padding-top: 1%;
+	margin-right: 20px; 
+	margin-left: 10px;
+}
+article {
+	float: left;
+	width: 45%; 
+	margin-left: 20px;
+}
+aside {
+	float: right;
+	width: 45%;
+	margin-right: 20px; 
+	color: white;
+	padding: 1%;
+}
 li {
 	font-size: 85%;
 }
-.t1, .tr1, .td1 {
-	border-collapse: collapse; 
-	padding: 10px;
-	color: 	#FFFFF0;
-}
-#t2, th, td {
-	width: 98%;
-	color: 	#FFFFF0;
+.GS{
+	width: 100%;
 	border-collapse: collapse;
+	background-color: #2F4F4F;
     border: 3px solid black;
 }
+#t2 {
+	width: 98%;
+	color: 	#FFFFF0;
+    border: 3px solid black;
+}
+
+#GT, .the{
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+	color: 	white;
+	border-collapse: collapse;
+    border: 2px solid black;
+}
+.trow, .tdd {
+ 	width: 100%;
+	text-align: left;
+	padding: 5px;
+	color: 	white;
+	background-color: #2F4F4F;
+	border-collapse: collapse;
+    border: 2px solid black;
+ }
