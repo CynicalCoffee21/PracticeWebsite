@@ -6,8 +6,21 @@
 
 	<script type="text/javascript"> 
 		var enter = confirm("If you want to visit my prototype site, select 'Ok'. Otherwise, select 'Cancel' and you will be redirected to Google.");
+		
 		if(enter !== true){
 			window.location = "https://www.google.com";
+		}
+
+		function redirect(){
+			var sel = document.getElementById("WebsiteSelect");
+			var value = sel.options[sel.selectedIndex].value;
+
+			if(value == "Opt1"){
+				window.location = "https://www.youtube.com";
+			}
+			if(value == "Opt2"){
+				window.location = "https://www.reddit.com";
+			}
 		}
 	</script>
 </head>
@@ -15,6 +28,23 @@
 <body>
 
 	<h3><center> This is a test website filled with random nonsense that I find enjoyable, inspirational, or interesting. </center></h3>
+
+	<center>
+		<p><b>Select a new Site<b></p>
+
+		<select id="WebsiteSelect"> 
+			<option value="Opt1"> 
+				 YouTube  
+			</option>
+
+			<option value="Opt2"> 
+				Reddit  
+			</option>
+		</select>
+
+		<input type="submit" value="Send" onclick="redirect();"/>
+
+	</center>
 
 	<div id = "Aleksandr" class = "secondary">
 		
